@@ -1,0 +1,25 @@
+.services {
+  font-family: $OS;
+  padding-bottom: 65px;
+
+}
+
+.service {
+  color: #2D2D2D;
+
+  @media (max-width: 768px) {
+    padding: 35px 40px 0;
+  }
+
+  &__title {
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  &__description {
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}

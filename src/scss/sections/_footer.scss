@@ -1,0 +1,28 @@
+.footer {
+  padding-top: 86px;
+  padding-bottom: 50px;
+  background-color: #446A82;
+  display: flex;
+  justify-content: center;
+
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 360px;
+    flex-wrap: wrap;
+
+    .footer__logo-img {
+      max-width: 56px;
+      max-height: 72px;
+      margin-right: 35px;
+    }
+
+    .footer__copyright {
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+}
+

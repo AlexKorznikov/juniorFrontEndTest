@@ -1,0 +1,85 @@
+.feature {
+  width: 100%;
+  position: relative;
+  display: block;
+  background-color: #FDB913;
+
+  .feature-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .feature__img-fluid {
+      width: 50%;
+      min-height: 512px;
+      background: url('../../img/img-side2.jpg') no-repeat;
+      background-position-x: -100px;
+      background-size: cover;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        background-position: 0;
+      }
+
+      @media (max-width: 480px) {
+        min-height: 220px;
+      }
+
+      @media (max-width: 812px) and (orientation: landscape) {
+        min-height: 520px;
+        background-position: 0;
+        width: 100%;
+      }
+
+    }
+
+    .feature-info {
+      width: 100%;
+      font-family: $OS;
+      padding-left: 110px;
+      padding-top: 50px;
+      max-width: 50%;
+
+      @media (max-width: 1050px) {
+        padding-left: 70px;
+      }
+
+      @media (max-width: 768px) {
+        max-width: unset;
+        padding-left: 40px;
+      }
+
+
+      .feature-content {
+        max-width: 445px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+
+        .feature__title {
+          color: #ffffff;
+          font-size: 35px;
+          line-height: 45px;
+        }
+
+        .feature__text {
+          margin-top: 35px;
+          white-space: pre-line;
+          font-size: 16px;
+          line-height: 25px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
